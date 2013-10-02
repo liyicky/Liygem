@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
     s.name = 'liygem'
-    s.version = '0.0.2'
-    s.date = '2013-09-30'
+    s.version = '0.0.3'
+    s.date = '2013-10-02'
     s.summary = "Liyicky was here"
-    s.description = "My first Ruby Gem"
-    s.authors = ["Jason Cheladyn"]
+    s.description = "Hello World Gem"
+    s.authors = ["Liyicky"]
     s.email = 'liyicky@gmail.com'
     s.files = ["lib/liygem.rb", "lib/hello/translator.rb"]
     s.homepage = 'http://rubygem.org/gems/liygem'
-    s.license = 'MIT'
+    s.license = 'App Orchard'
 end
