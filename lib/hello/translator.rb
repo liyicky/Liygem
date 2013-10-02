@@ -10,7 +10,7 @@ class Translator
         when "chinese"
             puts "Herow"
         when "ukrainian"
-            puts "ascii only mother fucker"
+            puts "ascii only"
         else
             puts "Hello World"
         end
