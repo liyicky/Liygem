@@ -1,0 +1,5 @@
+#!/usr/bin/evn ruby
+
+require 'liygem'
+
+puts Hi.sayHello(ARGV[0])
