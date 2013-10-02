@@ -6,13 +6,13 @@ class Translator
     def hello
         case @language
         when "spanish"
-            "Hola Mundo"
+            puts "Hola Mundo"
         when "chinese"
-            "Herow"
+            puts "Herow"
         when "ukrainian"
-            "ascii only mother fucker"
+            puts "ascii only mother fucker"
         else
-            "Hello World"
+            puts "Hello World"
         end
     end
 end
