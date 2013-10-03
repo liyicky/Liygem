@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name = 'liygem'
-    s.version = '0.0.5'
+    s.version = '0.0.6'
     s.date = '2013-10-02'
     s.summary = "Liyicky was here"
     s.description = "Hello World Gem"
@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
     s.files = ["lib/liygem.rb", "lib/hello/translator.rb"]
     s.homepage = 'http://rubygem.org/gems/liygem'
     s.license = 'App Orchard'
-    s.executables << 'liygem_exe'
+    s.executables << 'liygem'
 end
