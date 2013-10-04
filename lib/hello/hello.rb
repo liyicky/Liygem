@@ -1,10 +1,7 @@
-class Hello
-    def initialize(language)
-        @language = language
-    end
+module Hello
 
-    def translateHello
-        case @language
+    def self.translateHello(language)
+        case language
         when "spanish"
             "Hola Mundo"
         when "chinese"

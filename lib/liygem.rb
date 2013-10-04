@@ -1,6 +1,8 @@
 # Liygem
 
-class Hi
+require 'hello/hello'
+
+class Liygem
 
     #Say Hi in 4 languages!!!!!!!
     #For the first time ever, Ukrainian Support!
@@ -11,11 +13,9 @@ class Hi
     #
     #Arguments:
     #   language: (string)
-
+    
+    include Hello
     def self.sayHello(language = "english")
-        translator = Translator.new(language)
-        translator.hello
+        puts Hello::translateHello(language)
     end
 end
-
-require 'hello/translator'

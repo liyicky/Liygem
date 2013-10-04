@@ -1,5 +1,5 @@
-#!/usr/bin/evn ruby
+#!/usr/bin/env ruby
 
 require 'liygem'
 
-puts Hi.sayHello(ARGV[0])
+puts Liygem.sayHello(ARGV[0])
